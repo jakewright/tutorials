@@ -3,7 +3,7 @@
 Docker Cloud is a service that automates the deployment of Docker images.
 In this tutorial, I show how to use Docker Cloud to easily deploy Docker containers based on Dockerfiles in a GitHub or BitBucket repository.
 
-[Deploy Docker Containers with Docker Cloud](https://youtu.be/F82K07NmRpk)
+[Watch Deploy Docker Containers with Docker Cloud](https://youtu.be/F82K07NmRpk)
 
 # Getting started
 
