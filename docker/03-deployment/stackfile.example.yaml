@@ -1,0 +1,10 @@
+product-service:
+  image: 'jakewright/example-product-service:latest'
+  restart: always
+website:
+  image: 'jakewright/example-shop-website:latest'
+  restart: always
+  links:
+    - product-service
+  ports:
+    - '80:80'
