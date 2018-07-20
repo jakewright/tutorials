@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  device-registry:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 5000:80
