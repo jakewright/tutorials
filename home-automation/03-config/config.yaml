@@ -1,0 +1,9 @@
+base:
+  apiGateway: http://service.api-gateway
+  redis:
+    host: redis
+    port: 6379
+
+service.registry.device:
+  database: /data/devices.db
+  apiGateway: somethingNew
