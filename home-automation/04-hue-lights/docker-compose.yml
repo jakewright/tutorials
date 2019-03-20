@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  service.config:
+    build: ./service.config
+    volumes:
+      - ./service.config:/go/src/github.com/jakewright/tutorials/home-automation/04-hue-lights/service.config
+      - ./service.config/config.yaml:/data/config.yaml
+    ports:
+      - 7000:80
+
+  service.registry.device:
+    build: ./service.registry.device
+    volumes:
+      - ./service.registry.device:/usr/src/app
+    ports:
+      - 7001:80
+
+  service.controller.hue:
+    build: ./service.controller.hue
+    volumes:
+     - ./service.controller.hue:/usr/src/app
+     - /usr/src/app/node_modules
+    ports:
+     - 7003:80
