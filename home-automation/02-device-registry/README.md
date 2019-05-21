@@ -58,6 +58,7 @@ If a device with the given identifier already exists, the existing device will b
 **Response**
 
 - `201 Created` on success
+- `400 BAD REQUEST` on plure due to incorrect data
 
 ```json
 {
