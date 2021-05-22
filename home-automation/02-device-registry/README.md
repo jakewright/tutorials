@@ -29,7 +29,7 @@ Subsequent response definitions will only detail the expected value of the `data
         "identifier": "floor-lamp",
         "name": "Floor Lamp",
         "device_type": "switch",
-        "controller_gateway": "192.1.68.0.2"
+        "controller_gateway": "192.168.0.2"
     },
     {
         "identifier": "samsung-tv",
@@ -64,7 +64,7 @@ If a device with the given identifier already exists, the existing device will b
     "identifier": "floor-lamp",
     "name": "Floor Lamp",
     "device_type": "switch",
-    "controller_gateway": "192.1.68.0.2"
+    "controller_gateway": "192.168.0.2"
 }
 ```
 
@@ -82,7 +82,7 @@ If a device with the given identifier already exists, the existing device will b
     "identifier": "floor-lamp",
     "name": "Floor Lamp",
     "device_type": "switch",
-    "controller_gateway": "192.1.68.0.2"
+    "controller_gateway": "192.168.0.2"
 }
 ```
 
