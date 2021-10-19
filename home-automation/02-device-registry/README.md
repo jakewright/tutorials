@@ -90,7 +90,7 @@ If a device with the given identifier already exists, the existing device will b
 
 **Definition**
 
-`DELETE /devices/<identifier>`
+`DELETE /device/<identifier>`
 
 **Response**
 
