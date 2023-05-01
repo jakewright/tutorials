@@ -1,2 +1,2 @@
-Flask==0.12
+Flask==2.3.2
 flask-restful==0.3.5
